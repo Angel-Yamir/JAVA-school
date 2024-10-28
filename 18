@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class dieciocho {
+    public static void main(String[] args) {
+        int calificacion = Integer.parseInt(JOptionPane.showInputDialog("Calificacion: "));
+        
+        if(calificacion < 6){
+            JOptionPane.showMessageDialog(null, "Reprobatoria");
+        }else{
+            JOptionPane.showMessageDialog(null, "Aprobatorio");
+        }
+    }
+}
+
+
+
