@@ -1,0 +1,22 @@
+
+import javax.swing.JOptionPane;
+
+public class quince {
+    public static void main(String[] args) {
+        double alumnoUno = Double.parseDouble(JOptionPane.showInputDialog("Alumno 1: "));
+        double alumnoDos = Double.parseDouble(JOptionPane.showInputDialog("Alumno 2: "));
+        double alumnoTres = Double.parseDouble(JOptionPane.showInputDialog("Alumno 3: "));
+        double alumnoCuatro = Double.parseDouble(JOptionPane.showInputDialog("Alumno 4: "));
+        
+        Alumnos de menos de 40 kg.
+        Alumnos entre 40 y 50 kg.
+        Alumnos de más de 50 kg y menos de 60 kg.
+        Alumnos de más o igual a 60 kg
+        
+        if(alumnoUno < 4){
+            
+        }else if(){
+            
+        }
+    }
+}
